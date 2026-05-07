@@ -7,8 +7,7 @@ import numpy as np
 # 1. Load the saved assets
 @st.cache_resource
 def load_model():
-    return joblib.load('penguin_classification_v1.pkl')
-
+    return joblib.load('streamlit_folder/penguin_classification_v1.pkl')
 
 assets = load_model()
 model = assets['final_model']
