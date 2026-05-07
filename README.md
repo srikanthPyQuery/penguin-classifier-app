@@ -3,7 +3,7 @@
 A high-precision Machine Learning web application that predicts penguin species (**Adelie, Chinstrap, or Gentoo**) based on physical measurements. This project utilizes **PCA** to handle high multicollinearity and **Logistic Regression** for a robust, 99% accurate classification.
 
 ## 🚀 Live Demo
-[Insert your Streamlit Cloud Link Here]
+(https://penguin-classifier-app-model.streamlit.app/)
 
 ## 🛠️ Technical Highlights
 - **Exploratory Data Analysis (EDA):** Identified extreme multicollinearity (VIF > 280) between flipper length and body mass.
